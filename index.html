@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinWatch</title>
+
+  <!-- Below is the link which have installed all the bootstrap in our html file -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Custom/Fonts styles links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Link -->
+  <script src="https://kit.fontawesome.com/c339ed87f2.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrapped Jquery an Javascript is included -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <!-- CSS stylesheet links -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <!-- always go to bootstrap documentation and in components to see diff classes for that component -->
+      <!-- Nav Bar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">tinWatch</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Search</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <h1 class="big-heading">Time says, what's valuable than me?</h1>
+
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="far fa-heart"></i> Your Selection</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-search"></i> View All</button>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <!-- icons section -->
+    <div class="row feature-row">
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-check-circle fa-4x icon-btn"></i>
+        <h3 class="feature-title">Comfortable to wear.</h3>
+        <p>So comfortable, that you'll forget to take it off.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-bullseye fa-4x icon-btn"></i>
+        <h3 class="feature-title">Elite Clientele.</h3>
+        <p>We have the best watches, the stylish and classy ones.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-heart fa-4x icon-btn"></i>
+        <h3 class="feature-title">Guaranteed to work.</h3>
+        <p>Find the time on your side or your money back.</p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <!-- Carousel -->
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Almost anyone can wear me but, there's hardly anyone who can do what i do, which is Run Time. Tik Tock.</h2>
+          <img class="testimonial-image" src="images/watch-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I liked the slogan of brand, And always found best watches which adds a class in my persona.</h2>
+          <img class="testimonial-image-lady" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">Price list of our Hand pieces.</h2>
+    <p>Simple and affordable prices for your favourite designs.</p>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 pricing-column">
+        <div class="card-header">
+          <h3 class="card-heading">Automatic Watch</h3>
+        </div>
+       <div class="card-body">
+         <h2 class="price-text">$18.99 / mo</h2>
+         <p>Quartz Chronograph</p>
+         <p>Fashionable Watches</p>
+         <p>Skeleton Series</p>
+         <button type="button" class="btn btn-lg btn-block btn-outline-dark">Buy Now</button>
+       </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 pricing-column">
+        <div class="card-header">
+          <h3 class="card-heading">Dress Watch</h3>
+        </div>
+       <div class="card-body">
+         <h2 class="price-text">$33.49 / mo</h2>
+         <p>Stainless Steel</p>
+         <p>Analog</p>
+         <p>Japanese Quartz</p>
+         <button type="button" class="btn btn-lg btn-block btn-dark">Buy Now</button>
+       </div>
+      </div>
+
+      <div class="col-lg-4 pricing-column">
+        <div class="card-header">
+          <h3 class="card-heading">Smart Watch</h3>
+        </div>
+       <div class="card-body">
+         <h2 class="price-text">$69.99 / mo</h2>
+         <p>Super Lightweight Design</p>
+         <p>More Health Tracking Metrics</p>
+         <p>Smart Notifications</p>
+         <p>Long 9-Day Battery Life</p>
+         <button type="button" class="btn btn-lg btn-block btn-dark">Buy Now</button>
+       </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <h3 class="big-heading">Find the watches, you desire.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fas fa-infinity"></i> Watch Finder</i></button>
+    <button type="button" class="btn btn-light btn-lg download-button"><i class="fas fa-clipboard-list"></i> Discover More</i></button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>© Copyright 2018 TinWatch</p>
+  </footer>
+
+
+</body>
+</html>
